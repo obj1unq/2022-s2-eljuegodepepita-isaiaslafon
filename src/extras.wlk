@@ -1,10 +1,12 @@
 import pepita.*
 import wollok.game.*
 
+
+
 object visorEnergiaPepita {
 	
 	method position() {
-		return game.at(0,game.height() - 1)
+		return game.at(0,0)
 	}
 	
 	method text() {
@@ -14,7 +16,4 @@ object visorEnergiaPepita {
 	method textColor() {
 		return "ff0000ff"
 	}
-	
-	
-	
 }
